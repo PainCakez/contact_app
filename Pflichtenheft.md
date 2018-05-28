@@ -58,7 +58,7 @@ Eine Firma kann über einen Lösch-Button aus der Datenbank entfernt werden. Wen
 soll eine Meldung auftauchen die den Benutzer fragt, ob die Kontakte welche der Firma zugeteilt sind auch 
 gelöscht werden sollen. Die Daten werden aus der Datenbank gelöscht.
 ```
-### /F_Delete_003/
+#### /F_Delete_003/
 ```
 Ein Mitarbeiter soll bei längerem Knopfdruck ausgewählt werden und es bietet sich anschließend die Option,
 diesen aus der Firma zu entfernen. Folglich wird man gefragt ob der komplette Kontakt gelöscht werden soll.
@@ -71,6 +71,7 @@ bleibt bestehen, verliert aber wiederrum seinen EIntrag in der "Firma"-Spalte de
 ```
 Basierend auf den App-Store-Richtlininen und Design-Bedienungen des jeweiligen Betriebssystem:
 Apple App-Store bzw. Google PlayStore
+```
 
 ## Layout
 * zwei Spalten an der Oberseite zum auswählen:
