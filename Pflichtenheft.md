@@ -15,7 +15,7 @@ Erster Buchstabe des Firmennamens
 ```
 A-Z bzw. Z-A (/F_Sort_001/)
 ```
-Unten rechts befindet sich ein "+" Symbol. Bei Betätigung wird je nach ausgewählter obriger Spalte folgende
+* Unten rechts befindet sich ein "+" Symbol. Bei Betätigung wird je nach ausgewählter obriger Spalte folgende
 Funktion ausgeführt:
 ```
 Kontakte: /F_Add_001/
