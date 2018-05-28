@@ -1,68 +1,26 @@
 # Pflichtenheft
 
-## Software
+## Einsatz
+* Zielgruppe
 ```
-Android 
-IOS
+Felix
 ```
-## Layout
-* zwei Spalten an der Oberseite zum auswählen:
+* Anwendungsbereiche
 ```
-Kontakte
-Firmen
+Smartphone
 ```
-* Einträge sollen unterteilt werden anhand:
+* Betribesbedienungen
 ```
-Erster Buchstabe des Nachnamens, wenn nicht vorhanden, erster Buchstabe des Vornamens
-Erster Buchstabe des Firmennamens
+IOS / Android
 ```
-* Unter den obersten Spalten, zwei weitere Spalten mit der Beschriftung:
+## Produktbersicht
+* Akteure
 ```
-A-Z bzw. Z-A (/F_Sort_001/)
-```
-* Unten rechts befindet sich ein "+" Symbol. Bei Betätigung wird je nach ausgewählter obriger Spalte folgende
-Funktion ausgeführt:
-```
-Kontakte: /F_Add_001/
-Firmen: /F_Add_002/
-```
-* Beim auswählen einen Kontaktes/einer Firma, öffnet sich dieser/diese und die Daten werden angezeigt.
-
--> in folgendem Fenster werden oben rechts drei unternanderliegene Punkte angezeigt, wenn man auf diese klickt
-   bieten sich einem folgende Optionen
-```
-Bearbeiten (Kontakt: /F_Edit_001/, Firma: /F_Edit_002/)
-Löschen (Kontakt: /F_Delete_001/, Firma: /F_Delete_002/)
-```
-* Innerhalb des Fenster einer ausgewählten Firma, soll sich ein Mitarbeiter-Knopf befinden der folgende Funktion
-ausführt:
-```
-/F_Sort_003/
-```
-  -> bei den angezeigten Mitarbeitern soll folgende Funktion angewendet werden können:
-```
-/F_Delete_003/
+Stackholder: Felix
+Entwickler: PainCoding GmbH
 ```
 
-## Datenbanken
-#### Personenbezogen
-```
-Vorname
-Nachname
-Firma
-Adresse
-Telefonnummer
-E-Mail
-```
-
-#### Firmenbezogen
-```
-Name
-Adresse
-Mitarbeiter
-```
-
-### Funktionen
+## Funktionen
 #### /F_Add_001/
 ```
 Über einen Hinzufügen-Button im Kontakfenster, soll ein Kontakt zur Datenbank hinzugefügt werden.
@@ -106,3 +64,51 @@ Ein Mitarbeiter soll bei längerem Knopfdruck ausgewählt werden und es bietet s
 diesen aus der Firma zu entfernen. Folglich wird man gefragt ob der komplette Kontakt gelöscht werden soll.
 Wenn der Benutzer "nein" wählt, dann wird der Mitarbeiter aus der Firma entfernt und der dazugehörige Kontakt
 bleibt bestehen, verliert aber wiederrum seinen EIntrag in der "Firma"-Spalte der personenbezogenen Datenbank.
+```
+
+## Qualitätsanforderungen
+* Richtlinien
+```
+Basierend auf den App-Store-Richtlininen und Design-Bedienungen des jeweiligen Betriebssystem:
+Apple App-Store bzw. Google PlayStore
+
+## Layout
+* zwei Spalten an der Oberseite zum auswählen:
+```
+Kontakte
+Firmen
+```
+* Einträge sollen unterteilt werden anhand:
+```
+Erster Buchstabe des Nachnamens, wenn nicht vorhanden, erster Buchstabe des Vornamens
+Erster Buchstabe des Firmennamens
+```
+* Unter den obersten Spalten, zwei weitere Spalten mit der Beschriftung:
+```
+A-Z bzw. Z-A (/F_Sort_001/)
+```
+* Unten rechts befindet sich ein "+" Symbol. Bei Betätigung wird je nach ausgewählter obriger Spalte folgende
+Funktion ausgeführt:
+```
+Kontakte: /F_Add_001/
+Firmen: /F_Add_002/
+```
+* Beim auswählen einen Kontaktes/einer Firma, öffnet sich dieser/diese und die Daten werden angezeigt.
+
+-> in folgendem Fenster werden oben rechts drei unternanderliegene Punkte angezeigt, wenn man auf diese klickt
+   bieten sich einem folgende Optionen
+```
+Bearbeiten (Kontakt: /F_Edit_001/, Firma: /F_Edit_002/)
+Löschen (Kontakt: /F_Delete_001/, Firma: /F_Delete_002/)
+```
+* Innerhalb des Fenster einer ausgewählten Firma, soll sich ein Mitarbeiter-Knopf befinden der folgende Funktion
+ausführt:
+```
+/F_Sort_003/
+```
+  -> bei den angezeigten Mitarbeitern soll folgende Funktion angewendet werden können:
+```
+/F_Delete_003/
+```
+
+
