@@ -1,2 +1,2 @@
-# contact_app
-Specifications for 'Contact App'
+# kontakt_app
+Spezifikationen für 'Kontakt App'
