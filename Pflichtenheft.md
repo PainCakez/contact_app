@@ -1,5 +1,10 @@
 # Pflichtenheft
 
+## Software
+```
+Android 
+IOS
+```
 ## Layout
 * zwei Spalten an der Oberseite zum auswählen:
 ```
