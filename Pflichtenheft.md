@@ -1,5 +1,19 @@
 # Pflichtenheft
 
+## Zielbestimmungen
+ * MUSS
+ ```
+Sämtliche Funktionen inklusive Benutzeroberfläche.
+```
+ * WUNSCH
+ ```
+---
+```
+ * ABGRENZUNG
+ ```
+---
+```
+
 ## Einsatz
 * Zielgruppe
 ```
@@ -9,7 +23,7 @@ Felix
 ```
 Smartphone
 ```
-* Betribesbedienungen
+* Betriebsbedienungen
 ```
 IOS / Android
 ```
@@ -73,7 +87,7 @@ Basierend auf den App-Store-Richtlininen und Design-Bedienungen des jeweiligen B
 Apple App-Store bzw. Google PlayStore
 ```
 
-## Layout
+## Benutzeroberfläche
 * zwei Spalten an der Oberseite zum auswählen:
 ```
 Kontakte
@@ -113,3 +127,10 @@ ausführt:
 ```
 
 
+## Test
+
+* Ablauf
+```
+Die einzelnen Funktionen werden auf ihre Funktionlität getestet, durch die Aufgaben welche in der 
+Funktions-Beschreibung stehen, z.B: Kontakt hinzufügen, bearbeiten, löschen.
+```
