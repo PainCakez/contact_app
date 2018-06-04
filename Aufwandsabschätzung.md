@@ -1,5 +1,7 @@
 # Aufwandsabschätzung
 
+http://guerilla-projektmanagement.de/2007/07/23/fausformeln-aufwandsabschatzung/
+
 * Lastenheft
 ```
 1 Tag
