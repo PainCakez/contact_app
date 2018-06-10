@@ -1,4 +1,4 @@
 # kontakt_app
 Spezifikationen für 'Kontakt App'
 
-to do: Klassendiagramm, Objektdiagramm, Mock-Ups
+to do: ~~Klassendiagramm, Objektdiagramm, Mock-Ups~~
